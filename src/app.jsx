@@ -1,9 +1,12 @@
-import './App.css';
+import "./App.css";
+import NavigationBar from "./components/NavigationsBar";
 
 function App() {
-  return(
+  return (
     <div>
-      <h1>OK</h1>
+      <NavigationBar />
     </div>
   );
 }
+
+export default App;
