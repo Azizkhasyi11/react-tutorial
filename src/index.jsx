@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./app.jsx";
 import { HelmetProvider } from 'react-helmet-async';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 /**
 * Root of react site 
