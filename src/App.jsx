@@ -21,6 +21,12 @@ function App() {
         <Trending />
       </div>
       {/* End of Trending */}
+      
+      {/* Trending */}
+      <div className="superhero">
+        <Superhero />
+      </div>
+      {/* End of Trending */}
     </div>
   );
 }
