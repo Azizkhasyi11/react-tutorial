@@ -5,17 +5,52 @@ const Trending = () => {
     <div>
       <Container>
         <Row>
-          <Col className="movieImage">
-            <Card className="text-dark text-center movieImage">
+          <Col md={4} className="movieWrapper">
+            <Card className=" bg-dark text-white text-center movieImage">
               <Image
                 src="https://github.com/deaaprizal/rdeafilms-react-js-basic/blob/part1/basic/src/assets/images/trending/dune.jpg?raw=true"
                 alt="Dune Image"
-                width="50%"
-                height="auto"
               />
-                <Card.Title>Title</Card.Title>
-                <Card.Text>BRUH</Card.Text>
-                <Card.Text>Ok</Card.Text>
+              <div className="p-2 m-1">
+                <Card.Title className="text-center">Title</Card.Title>
+                <Card.Text className="text-left">
+                  lorao naoaejpin oidhwo aponeipjep aijdpiejfikf aijvpicnieffc
+                  lnianvjifn{" "}
+                </Card.Text>
+                <Card.Text className="text-left">Lats u</Card.Text>
+              </div>
+            </Card>
+          </Col>
+          <Col md={4} className="movieWrapper">
+            <Card className=" bg-dark text-white text-center movieImage">
+              <Image
+                src="https://github.com/deaaprizal/rdeafilms-react-js-basic/blob/part1/basic/src/assets/images/trending/everything.jpg?raw=true"
+                alt="Dune Image"
+              />
+              <div className="p-2 m-1">
+                <Card.Title className="text-center">Title</Card.Title>
+                <Card.Text className="text-left">
+                  lorao naoaejpin oidhwo aponeipjep aijdpiejfikf aijvpicnieffc
+                  lnianvjifn{" "}
+                </Card.Text>
+                <Card.Text className="text-left">Lats u</Card.Text>
+              </div>
+            </Card>
+          </Col>
+          <Col md={4} className="movieWrapper">
+            <Card className=" bg-dark text-white text-center movieImage">
+              <Image
+                src="https://github.com/deaaprizal/rdeafilms-react-js-basic/blob/part1/basic/src/assets/images/trending/infinite.jpg?raw=true"
+                alt="Dune Image"
+              />
+              <div className="p-2 m-1">
+                <Card.Title className="text-center">Title</Card.Title>
+                <Card.Text className="text-left">
+                  lorao naoaejpin oidhwo aponeipjep aijdpiejfikf aijvpicnieffc
+                  lnianvjifn{" "}
+                </Card.Text>
+                <Card.Text className="text-left">Lats u</Card.Text>
+              </div>
             </Card>
           </Col>
         </Row>

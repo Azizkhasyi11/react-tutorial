@@ -20,12 +20,17 @@
 }
 
 .trending {
-  height: 100vh;
+  height: auto;
   background: url(https://github.com/deaaprizal/rdeafilms-react-js-basic/blob/part1/basic/src/assets/images/bg/scifi.jpg?raw=true);
   background-size: cover;
 }
 
+.movieWrapper {
+  
+}
+
 .movieImage {
-  width: 200px;
-  hieght: 200px;
+  height: auto;
+  margin: 5px;
+  padding: 5px;
 }
