@@ -11,10 +11,16 @@
   align-items: end;
 }
 
-.title{
+.title {
   font-size: 3rem;
   font-weight: 800;
   line-height: 1;
   text-shadow: 2px 2px black;
   letter-spacing: 4px;
+}
+
+.trending {
+  height: 100vh;
+  background: url(https://github.com/deaaprizal/rdeafilms-react-js-basic/blob/part1/basic/src/assets/images/bg/spiderman.jpg?raw=true);
+  background-size: cover;
 }
