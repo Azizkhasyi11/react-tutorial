@@ -21,6 +21,11 @@
 
 .trending {
   height: 100vh;
-  background: url(https://github.com/deaaprizal/rdeafilms-react-js-basic/blob/part1/basic/src/assets/images/bg/spiderman.jpg?raw=true);
+  background: url(https://github.com/deaaprizal/rdeafilms-react-js-basic/blob/part1/basic/src/assets/images/bg/scifi.jpg?raw=true);
   background-size: cover;
+}
+
+.movieImage {
+  width: 200px;
+  hieght: 200px;
 }
