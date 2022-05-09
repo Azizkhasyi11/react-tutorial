@@ -1,9 +1,9 @@
-import { Container, Row, Col} from "react-bootstrap"
-
 import "./App.css";
 import "./style/LandingPage.css";
 
+// Import componentns
 import NavigationBar from "./components/NavigationsBar";
+import Intro from "./components/Intro"
 
 function App() {
   return (
@@ -11,16 +11,7 @@ function App() {
       {/* Intro */}
       <div className="myBG">
         <NavigationBar />
-        <div className="intro">
-          <Container className="text-white d-flex justify-content-center align-items-center">
-            <Row>
-              <Col>
-                <div className="title">NONTON GRATIS</div>
-                <div className="title">GAK PAKE KARCIS</div>
-              </Col>
-            </Row>
-          </Container>
-        </div>
+        <Intro />
       </div>
       {/* End of Intro */}
     </div>
