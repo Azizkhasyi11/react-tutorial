@@ -1,4 +1,17 @@
 .myBG {
   height: 100vh;
-  background: url();
+  background: url("https://github.com/deaaprizal/rdeafilms-react-js-basic/blob/part1/basic/src/assets/images/bg/main.jpg?raw=true");
+  background-size: cover;
+}
+
+.intro {
+  height: 30%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.title{
+  font-size: 3rem;
+  font-weight
 }
